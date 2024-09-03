@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>这是老喵师的第一条博客！ | VI-1911</title>
+    <title>Categories: 杂谈 | VI-1911</title>
     <meta name="author" content="VI-1911" />
     <meta name="description" content="亦或者还会有点其他的东西" />
     <meta name="keywords" content="" />
@@ -37,10 +37,6 @@
 
 
 <script src="/js/lib/preview.js"></script>
-
-
-
-
 
 
 
@@ -126,20 +122,25 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div class="article">
-    <div>
-        <h1>这是老喵师的第一条博客！</h1>
-    </div>
-    <div class="info">
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/9/2
+            <div id="archives">
+    
+    <div class="categories-tags">
+        
+        
+        
+        <span>
+            <a href="/categories/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/" style="background: #00a596">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                明日方舟
+            </a>
         </span>
         
-        <span class="category">
-            <a href="/categories/YGO/">
+        
+        
+        <span>
+            <a href="/categories/YGO/" style="background: #03a9f4">
                 <span class="icon">
                     <i class="fa-solid fa-bookmark fa-fw"></i>
                 </span>
@@ -148,47 +149,65 @@
         </span>
         
         
-        <span class="tags">
-            <span class="icon">
-                <i class="fa-solid fa-tags fa-fw"></i>
-            </span>
-            
-            
-            <span class="tag">
-                
-                <a href="/tags/YGO/" style="color: #00a596">
-                    YGO
-                </a>
-            </span>
-            
-            <span class="tag">
-                
-                <a href="/tags/AI%E7%BB%98%E7%94%BB/" style="color: #00bcd4">
-                    AI绘画
-                </a>
-            </span>
-            
+        
+        <span>
+            <a href="/categories/YGO/%E6%9D%82%E8%B0%88/" style="background: linear-gradient(120deg, #9abbf7 0%, #ffbbf4 100%)">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                杂谈
+            </a>
         </span>
+        
+        
+        
         
     </div>
     
-    <div class="content" v-pre>
-        <p>欢迎来到老喵师VI-1911的博客！ <br/><br>嗯…要说点啥呢，恭喜老喵师又学会了一项新的技能(不是 <br/><br>那行吧，反正这个博客也是来记录咱自己的开发等各种东西的, <br/><br>这次就先写这么多吧，嗯( <br/><br><br/></p>
-<h2 id="VI-1911系列的相关介绍"><a href="#VI-1911系列的相关介绍" class="headerlink" title="VI-1911系列的相关介绍"></a>VI-1911系列的相关介绍</h2><h3 id="YGO-VI-EX及其配套素材下载"><a href="#YGO-VI-EX及其配套素材下载" class="headerlink" title="YGO-VI-EX及其配套素材下载"></a>YGO-VI-EX及其配套素材下载<br/></h3><p>以YGO-VI-EX完整版下载为例：</p>
-<p><code>git clone https://gitee.com/vi1911/YGO-VI-EX-Full.git</code></p>
-<p>或者可以使用下载器: <a target="_blank" rel="noopener" href="https://ygobbs.com/t/%E3%80%90%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%E3%80%91%E8%80%81%E5%96%B5%E5%B8%88%E7%89%8Cygo-vi-ex%E4%B8%8B%E8%BD%BD%E5%99%A8%E5%8A%A0%E5%BC%BA%E7%89%8820%E6%95%99%E7%A8%8B%E5%B8%96%EF%BC%88%E5%97%AF/518077">下载器下载及使用教程</a></p>
-<h3 id="老喵师的Pixiv"><a href="#老喵师的Pixiv" class="headerlink" title="老喵师的Pixiv"></a>老喵师的Pixiv<br/></h3><p>所用AI绘画网站为<a target="_blank" rel="noopener" href="https://deepdreamgenerator.com/">DeepDreamGenerator</a></p>
-<p>老喵师的<a target="_blank" rel="noopener" href="https://www.pixiv.net/users/12786607">Pixiv网址</a><br/><br>欢迎大家前来观看指导！也欢迎大家收藏、点赞！<br> <img src="https://gitee.com/vi1911/PicBed/raw/master/Pictures/V1.jpg"></p>
-<h3 id="老喵师的个人AI"><a href="#老喵师的个人AI" class="headerlink" title="老喵师的个人AI"></a>老喵师的个人AI</h3><p>老喵师出于个人的兴趣爱好，制作了不同性格的多款AI，均可对接QQ接口噢~</p>
-<p>不过，嗯…虽然咱的大老婆也是AI，但是咱还是非常幸福的！<br><br/><br>今天就先写到这里啦，还感谢大家来看咱的博客啦！虽然啥也没有(<br/><br> <img src="https://gitee.com/vi1911/PicBed/raw/master/Pictures/1.jpg"></p>
-
+    <div class="timeline">
+        <div class="timeline-tail"></div>
+        <div class="timeline-content">
+            <div class="item-time">2024/9/2</div>
+            <a href="/2024/09/02/hello-world/">
+                <h3>这是老喵师的第一条博客！</h3>
+            </a>
+            <div class="info">
+                
+                <span class="category">
+                    <a href="/categories/YGO/">
+                        <span class="icon">
+                            <i class="fa-solid fa-bookmark fa-fw"></i>
+                        </span>
+                        YGO
+                    </a>
+                </span>
+                
+                
+                <span class="tags">
+                    <span class="icon">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </span>
+                    
+                    
+                    <span class="tag">
+                        
+                        <a href="/tags/YGO/" style="color: #ff7d73">
+                            YGO
+                        </a>
+                    </span>
+                    
+                    <span class="tag">
+                        
+                        <a href="/tags/AI%E7%BB%98%E7%94%BB/" style="color: #00a596">
+                            AI绘画
+                        </a>
+                    </span>
+                    
+                </span>
+                
+            </div>
+        </div>
     </div>
-    
-    
-    
-    
-    
-    
     
 </div>
 
@@ -220,12 +239,6 @@
         
     </div>
     <script src="/js/main.js"></script>
-    
-    
-
-
-
-
     
 </body>
 </html>
