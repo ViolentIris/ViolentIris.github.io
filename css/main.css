@@ -349,7 +349,19 @@
 }
 #loading img {
     border-radius: 0;
-    height: 300px;
+    height: 350px;
+}
+#loading-circle {
+    align-items: center;
+    border: 0px solid #a3ddfb;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 0vmin;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+    width: 0vmin;
 }
 #main {
     margin-right: calc(100% - 100vw);
@@ -716,7 +728,7 @@ h1 {
     font-size: 30px;
 }
 h2 {
-    font-size: 27px;
+    font-size: 40px;
 }
 h3 {
     font-size: 24px;
